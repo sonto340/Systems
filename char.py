@@ -1,7 +1,6 @@
 # character stats are included here
 # just trying some stuff
 # stats
-from main import player_name
 name = player_name
 stats = {
     "atk": 15,
