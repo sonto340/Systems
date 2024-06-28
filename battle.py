@@ -21,8 +21,15 @@ while current_enemy["hp"] > 0:
                     damage = (current_enemy["hp"] - (stats["atk"]-current_enemy["def"]))
                     print(f"A hit! You did {damage} damage!")
                     current_enemy["hp"] -= damage
+                    if current_enemy["hp"] == 0:
+                         print("YOU WIN")
                 else:
                     print("Oh no! You missed!")
+        elif command is "I" or "i":
+             print("I have no idea how to program that yet!")
+             break
+        elif command is "R" or "r":
+             print("You ran away!")
 else:
     print("battle won!")
 
