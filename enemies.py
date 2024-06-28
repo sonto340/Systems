@@ -1,6 +1,7 @@
 # various potential enemies included in here
 
 goon = {
+    "name": "Goon",
     "hp": 25,
     "atk": 12,
     "def": 7,
